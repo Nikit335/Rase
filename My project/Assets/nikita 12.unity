@@ -40538,8 +40538,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
+      propertyPath: carSetting.brakePower
+      value: 1e+14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
       propertyPath: carSetting.automaticGear
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
+      propertyPath: carSetting.maxSteerAngle
+      value: 27.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
@@ -74535,6 +74547,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.54553366, y: 2.0000005, z: 1.0000005}
   m_Center: {x: 0.0073753195, y: 0.000025422263, z: 0.000010050338}
+--- !u!1 &1982844708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 186536, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
+  m_PrefabInstance: {fileID: 1066897124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1982844712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982844708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffc576f842f179449d9a68c53ca94fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 155
+  maxReverseSpeed: 45
+  accelerationMultiplier: 2
+  maxSteeringAngle: 32
+  steeringSpeed: 0.631
+  brakeForce: 600
+  decelerationMultiplier: 2
+  handbrakeDriftMultiplier: 5
+  bodyMassCenter: {x: 0, y: 0, z: 0}
+  frontLeftMesh: {fileID: 0}
+  frontLeftCollider: {fileID: 0}
+  frontRightMesh: {fileID: 0}
+  frontRightCollider: {fileID: 0}
+  rearLeftMesh: {fileID: 0}
+  rearLeftCollider: {fileID: 0}
+  rearRightMesh: {fileID: 0}
+  rearRightCollider: {fileID: 0}
+  RLWParticleSystem: {fileID: 0}
+  RRWParticleSystem: {fileID: 0}
+  RLWTireSkid: {fileID: 0}
+  RRWTireSkid: {fileID: 0}
+  carSpeed: 0
+  isDrifting: 0
+  isTractionLocked: 0
+  carSpeedText: {fileID: 0}
+  carEngineSound: {fileID: 0}
+  tireScreechSound: {fileID: 0}
 --- !u!1 &1983876898
 GameObject:
   m_ObjectHideFlags: 0
