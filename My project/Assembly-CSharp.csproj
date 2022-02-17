@@ -70,7 +70,31 @@
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
     <Compile Include="Assets\skript\s4.cs" />
     <Compile Include="Assets\skript\s9.cs" />
-    <Compile Include="Assets\RCK 2.3\Scripts\PrometeoCarController.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\Exts\TransformExtensions.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\Exts\UIExtentions.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\Enums.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\GamePlay\CarController.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\Exts\MathExtentions.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\VisualAndSounds\CarStateUI.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\VisualAndSounds\CarSoundController.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\Exts\OtherExtentions.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\GamePlay\GameController.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\ShortAccess.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\Exts\ActionExtentions.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\UI\MobileControlUI.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\GamePlay\PG_WheelCollider.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\UI\ShowHideMobileUI.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\VisualAndSounds\BodyTilt.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\GamePlay\CameraController.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\GamePlay\Wheel.cs" />
+    <Compile Include="Assets\PROMETEO - Car Controller\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\PROMETEO - Car Controller\Scripts\PrometeoCarController.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\Exts\ArrayExtensions.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\Singleton.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Utils\Exts\MaskExtentions.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\UI\CustomButton.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\GamePlay\UserControl.cs" />
+    <Compile Include="Assets\ACC_Lite\Scripts\Game\VisualAndSounds\FXController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />

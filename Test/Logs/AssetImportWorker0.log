@@ -15,11 +15,11 @@ E:/Nikita/My project/Rase/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64897
+49916
 Successfully changed project path to: E:/Nikita/My project/Rase/Test
 E:/Nikita/My project/Rase/Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -35,77 +35,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002268 seconds.
+Registered in 0.003331 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 22.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.655 seconds
+- Completed reload, in  1.843 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1655ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (1843ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (331ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (180ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (126ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (153ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (22ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002613 seconds.
+Registered in 0.002342 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.861 seconds
+- Completed reload, in  0.965 seconds
 Domain Reload Profiling:
-	ReloadAssembly (862ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (691ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
+			SetupTypeCache (246ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (296ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (340ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+Unloading 1435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.8 MB.
+System memory in use after: 68.8 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1832.
-Total: 2.624900 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.047900 ms MarkObjects: 2.360600 ms  DeleteObjects: 0.057700 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 3.940000 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.042700 ms MarkObjects: 3.639500 ms  DeleteObjects: 0.113700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,327 +134,265 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/PROMETEO - Car Controller/Prefabs/Prometheus.prefab
-  artifactKey: Guid(79d0ca8b77e301442afdb49f102e8aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PROMETEO - Car Controller/Prefabs/Prometheus.prefab using Guid(79d0ca8b77e301442afdb49f102e8aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a53f86061c7c5822059b0bf2bc5f513') in 0.391683 seconds 
-  Import took 0.393913 seconds .
+  path: Assets/PROMETEO - Car Controller/Effects/Particle Systems/Meshes/Sphere.fbx
+  artifactKey: Guid(7f2eb32a90aace349adccd6efbc6bd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Effects/Particle Systems/Meshes/Sphere.fbx using Guid(7f2eb32a90aace349adccd6efbc6bd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3f03d5f1828cbe32a8736dfa5b6de1') in 0.298565 seconds 
+  Import took 0.301605 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/PROMETEO - Car Controller/Prefabs
-  artifactKey: Guid(a8fd3b6af68cc1042a5c84e0e464b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PROMETEO - Car Controller/Prefabs using Guid(a8fd3b6af68cc1042a5c84e0e464b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba08fedb8fa8f732b72ebb33879963f') in 0.003654 seconds 
-  Import took 0.005461 seconds .
+  Time since last request: 26.146540 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/VisualAndSounds/BodyTilt.cs
+  artifactKey: Guid(398d06ec47ad57e4289eeab1daf74507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/VisualAndSounds/BodyTilt.cs using Guid(398d06ec47ad57e4289eeab1daf74507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3c4d8fde4296b9ce51f36ca3c1c635') in 0.009709 seconds 
+  Import took 0.012478 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.501527 seconds.
-  path: Assets/PROMETEO - Car Controller/Scenes
-  artifactKey: Guid(3c6489f37c0550f42ba9141718064fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PROMETEO - Car Controller/Scenes using Guid(3c6489f37c0550f42ba9141718064fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854592cad8f230a64fe08349d32c73c3') in 0.004498 seconds 
-  Import took 0.006692 seconds .
+  Time since last request: 0.002725 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/Exts/TransformExtensions.cs
+  artifactKey: Guid(71d431a96c3606e43906d0920a2b949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/Exts/TransformExtensions.cs using Guid(71d431a96c3606e43906d0920a2b949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0333e40f94d57e590dda1ae0fbf3c5') in 0.005586 seconds 
+  Import took 0.009163 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.402074 seconds.
-  path: Assets/PROMETEO - Car Controller/Scenes/Demo.unity
-  artifactKey: Guid(d05c07244ed6a3740be3bdad186521e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PROMETEO - Car Controller/Scenes/Demo.unity using Guid(d05c07244ed6a3740be3bdad186521e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1861c49302197360cae4f4b69896c332') in 0.006076 seconds 
-  Import took 0.008100 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002655 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
-Domain Reload Profiling:
-	ReloadAssembly (862ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (715ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (315ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 68.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1842.
-Total: 2.609500 ms (FindLiveObjects: 0.133800 ms CreateObjectMapping: 0.040900 ms MarkObjects: 2.420900 ms  DeleteObjects: 0.013000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003559 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Domain Reload Profiling:
-	ReloadAssembly (791ms)
-		BeginReloadAssembly (87ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (654ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (273ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.2 MB.
-System memory in use after: 70.4 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1869.
-Total: 3.348600 ms (FindLiveObjects: 0.139200 ms CreateObjectMapping: 0.033900 ms MarkObjects: 2.704000 ms  DeleteObjects: 0.470800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 274.854239 seconds.
-  path: Assets/ACC_Lite
-  artifactKey: Guid(92b5fabe0462e444c989a224fb040eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ACC_Lite using Guid(92b5fabe0462e444c989a224fb040eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8282f95a5f796984654e7cbf8b31625') in 0.007191 seconds 
-  Import took 0.009336 seconds .
+  Time since last request: 0.002203 seconds.
+  path: Assets/PROMETEO - Car Controller/Effects/Particle Systems/Materials/Sphere_Material.mat
+  artifactKey: Guid(dd3838b8223e51b488c55db2735d498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Effects/Particle Systems/Materials/Sphere_Material.mat using Guid(dd3838b8223e51b488c55db2735d498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb7ecf51b3dcc653a93926d6ec8a379') in 0.058203 seconds 
+  Import took 0.061977 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.540107 seconds.
-  path: Assets/ACC_Lite/Scenes
-  artifactKey: Guid(0464fc435bfec4e4dbfb80cdf3d7380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ACC_Lite/Scenes using Guid(0464fc435bfec4e4dbfb80cdf3d7380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c336f78dea9fd1fdf05847b5d03ffe') in 0.001676 seconds 
-  Import took 0.004193 seconds .
+  Time since last request: 0.017046 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/GamePlay/CameraController.cs
+  artifactKey: Guid(0ec3c95bef660c44b9d4356558f6dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/GamePlay/CameraController.cs using Guid(0ec3c95bef660c44b9d4356558f6dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef67199efe345f70d5788a6ff916efa') in 0.004636 seconds 
+  Import took 0.006906 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.058821 seconds.
-  path: Assets/ACC_Lite/Scenes/Demo.unity
-  artifactKey: Guid(9789e29865be3414080f478abfc4aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ACC_Lite/Scenes/Demo.unity using Guid(9789e29865be3414080f478abfc4aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29de510eb83b82ad7c947abe1fa9efa4') in 0.010731 seconds 
-  Import took 0.012976 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002181 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
-Domain Reload Profiling:
-	ReloadAssembly (831ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (681ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.2 MB.
-System memory in use after: 70.3 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1871.
-Total: 2.926400 ms (FindLiveObjects: 0.148900 ms CreateObjectMapping: 0.035100 ms MarkObjects: 2.205000 ms  DeleteObjects: 0.536600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 29.323587 seconds.
-  path: Assets/PROMETEO - Car Controller
-  artifactKey: Guid(5819e965676c9b94f81165b301d34caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PROMETEO - Car Controller using Guid(5819e965676c9b94f81165b301d34caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62b4eca1150c6f3f8c8d3af5bcc9f1c') in 0.006423 seconds 
-  Import took 0.008438 seconds .
+  Time since last request: 0.005360 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/GamePlay/Wheel.cs
+  artifactKey: Guid(9cbfdb2e9b4ffdb49a4ad4815bc2a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/GamePlay/Wheel.cs using Guid(9cbfdb2e9b4ffdb49a4ad4815bc2a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03024c3a1ecd30cd240fcd85ea43a3e6') in 0.004390 seconds 
+  Import took 0.006499 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 335.037500 seconds.
-  path: Assets/PROMETEO - Car Controller/Scripts/CameraFollow.cs
-  artifactKey: Guid(5f6d3ff905719c845a4a6404bc4d4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PROMETEO - Car Controller/Scripts/CameraFollow.cs using Guid(5f6d3ff905719c845a4a6404bc4d4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bcaea664f2ebb426967d6674d295d5') in 0.013883 seconds 
-  Import took 0.016380 seconds .
+  Time since last request: 0.004396 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/GamePlay/Editor/PG_WheelColliderEditor.cs
+  artifactKey: Guid(cd2be9f22f144e04daee8a7e7be8f11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/GamePlay/Editor/PG_WheelColliderEditor.cs using Guid(cd2be9f22f144e04daee8a7e7be8f11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8afc00bee2ca787be7ad06b0019cdd8') in 0.004170 seconds 
+  Import took 0.006358 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.826195 seconds.
-  path: Assets/PROMETEO - Car Controller/Scripts/PrometeoCarController.cs
-  artifactKey: Guid(c0fefceefe666bb4682b272ec8c5bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PROMETEO - Car Controller/Scripts/PrometeoCarController.cs using Guid(c0fefceefe666bb4682b272ec8c5bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea1b35215fc99b0d37ee2041ef6e684') in 0.004044 seconds 
-  Import took 0.006255 seconds .
+  Time since last request: 0.004387 seconds.
+  path: Assets/PROMETEO - Car Controller/Materials/PCC_Light_Mat.mat
+  artifactKey: Guid(975b4d94cd15da34d833f64957a8479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Materials/PCC_Light_Mat.mat using Guid(975b4d94cd15da34d833f64957a8479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbef3b4cf63b659391cc0e4ac4e3f35') in 0.011093 seconds 
+  Import took 0.013834 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001977 seconds.
-  path: Assets/PROMETEO - Car Controller/Scripts/PrometeoCarController.cs
-  artifactKey: Guid(c0fefceefe666bb4682b272ec8c5bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PROMETEO - Car Controller/Scripts/PrometeoCarController.cs using Guid(c0fefceefe666bb4682b272ec8c5bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea1b35215fc99b0d37ee2041ef6e684') in 0.001393 seconds 
-  Import took 0.003622 seconds .
+  Time since last request: 0.004528 seconds.
+  path: Assets/PROMETEO - Car Controller/Meshes/Prometheus - Collider.fbx
+  artifactKey: Guid(8ef3dc744ab293d4ea87fd4c59a15afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Meshes/Prometheus - Collider.fbx using Guid(8ef3dc744ab293d4ea87fd4c59a15afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e711980517a62b2f5bcf861392fb83') in 0.014909 seconds 
+  Import took 0.017213 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002808 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.073 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1074ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (891ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 70.4 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1873.
-Total: 5.830700 ms (FindLiveObjects: 0.284700 ms CreateObjectMapping: 0.129600 ms MarkObjects: 4.374900 ms  DeleteObjects: 1.039500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.696831 seconds.
-  path: Assets/PROMETEO - Car Controller/Scripts
-  artifactKey: Guid(649d92e8f4c0cb84fbcf9897c7b84c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PROMETEO - Car Controller/Scripts using Guid(649d92e8f4c0cb84fbcf9897c7b84c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea0b3cfa596c9bfeca8dc9eee429310') in 0.008691 seconds 
-  Import took 0.011010 seconds .
+  Time since last request: 0.004980 seconds.
+  path: Assets/PROMETEO - Car Controller/Effects/Trails/Prefabs/TireSkid.prefab
+  artifactKey: Guid(ab4ea67cd9337c341af0bd7182c60f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Effects/Trails/Prefabs/TireSkid.prefab using Guid(ab4ea67cd9337c341af0bd7182c60f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d455f13a1a0747f59dfd97ed6156d36') in 0.010509 seconds 
+  Import took 0.012558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008793 seconds.
+  path: Assets/PROMETEO - Car Controller/Meshes/Prometheus.fbx
+  artifactKey: Guid(2c403376ef1fe604d8de45d141d39b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Meshes/Prometheus.fbx using Guid(2c403376ef1fe604d8de45d141d39b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893d253d1f4bffba7fce60a24b2853dc') in 0.051479 seconds 
+  Import took 0.053604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004868 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/Exts/UIExtentions.cs
+  artifactKey: Guid(9ccb642cdd8200349a0b3074a2713303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/Exts/UIExtentions.cs using Guid(9ccb642cdd8200349a0b3074a2713303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0370a34f13c52a3c8b5a31ce32699e41') in 0.003950 seconds 
+  Import took 0.005915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004514 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/Enums.cs
+  artifactKey: Guid(7b441327f90b5b243b52fe95f26cda7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/Enums.cs using Guid(7b441327f90b5b243b52fe95f26cda7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8a7e7ae7265dc89815cb83d02d6b80') in 0.003491 seconds 
+  Import took 0.005616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008499 seconds.
+  path: Assets/PROMETEO - Car Controller/Textures/PCC_TextureAtlas.png
+  artifactKey: Guid(5cf2f8f7b80b88e4387cd662a513a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Textures/PCC_TextureAtlas.png using Guid(5cf2f8f7b80b88e4387cd662a513a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1746abbc7c3779f116ab01e91b5638') in 0.021205 seconds 
+  Import took 0.023293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004645 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/Exts/ArrayExtensions.cs
+  artifactKey: Guid(371708deda11dfc46bf318a242284fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/Exts/ArrayExtensions.cs using Guid(371708deda11dfc46bf318a242284fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979c0f32a5bc9e7b006092c98f6244e0') in 0.004110 seconds 
+  Import took 0.006034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004010 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/Singleton.cs
+  artifactKey: Guid(c7cb41087a33f5f40846e3f01aac9789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/Singleton.cs using Guid(c7cb41087a33f5f40846e3f01aac9789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc5a125166d887ac9bf5d7e7a415a69') in 0.003545 seconds 
+  Import took 0.005400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004699 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/GamePlay/CarController.cs
+  artifactKey: Guid(f1d204033c4a67b4f868a9a1a2715013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/GamePlay/CarController.cs using Guid(f1d204033c4a67b4f868a9a1a2715013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac31f4e1c4291f188e4692be7ae03e6') in 0.003542 seconds 
+  Import took 0.005419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004355 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/Exts/MaskExtentions.cs
+  artifactKey: Guid(981d207de6e7a8c439069a473236e0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/Exts/MaskExtentions.cs using Guid(981d207de6e7a8c439069a473236e0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479cf2f84e4c0c5de898ff14d63316b1') in 0.004984 seconds 
+  Import took 0.007008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004182 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/Exts/MathExtentions.cs
+  artifactKey: Guid(32858b4eef98666469bd318016194abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/Exts/MathExtentions.cs using Guid(32858b4eef98666469bd318016194abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25058f657fd891ef7c377bccfde64649') in 0.003715 seconds 
+  Import took 0.005605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004209 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/VisualAndSounds/CarStateUI.cs
+  artifactKey: Guid(4095ad3c12f98dc459c185314e5b075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/VisualAndSounds/CarStateUI.cs using Guid(4095ad3c12f98dc459c185314e5b075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37e9c27323da2e6fea9c30ea043bbda') in 0.004148 seconds 
+  Import took 0.006109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004555 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/VisualAndSounds/CarSoundController.cs
+  artifactKey: Guid(45d2fcf7f8ba489478b6f4476783d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/VisualAndSounds/CarSoundController.cs using Guid(45d2fcf7f8ba489478b6f4476783d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725d583bd16711286d78fec10f42dd52') in 0.003758 seconds 
+  Import took 0.005816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004114 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/Exts/OtherExtentions.cs
+  artifactKey: Guid(7431696b80eda244aa525502f018e094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/Exts/OtherExtentions.cs using Guid(7431696b80eda244aa525502f018e094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8028c2ea252ee18babe35af6a86d348a') in 0.003782 seconds 
+  Import took 0.005739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005177 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/GamePlay/GameController.cs
+  artifactKey: Guid(434dca12721340541a848f9a556526c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/GamePlay/GameController.cs using Guid(434dca12721340541a848f9a556526c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9d4082bca669d053651d06070dbf98') in 0.003584 seconds 
+  Import took 0.005488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009116 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/ShortAccess.cs
+  artifactKey: Guid(7a62ba6836e265f44a4eb11e71c9c602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/ShortAccess.cs using Guid(7a62ba6836e265f44a4eb11e71c9c602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63eadeacf0e43159906cbb371544ec1') in 0.003755 seconds 
+  Import took 0.005752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008710 seconds.
+  path: Assets/PROMETEO - Car Controller/Effects/Particle Systems/Prefabs/TireSmoke_PS.prefab
+  artifactKey: Guid(ddf4ea2625767fd4bb4153e7e4009ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Effects/Particle Systems/Prefabs/TireSmoke_PS.prefab using Guid(ddf4ea2625767fd4bb4153e7e4009ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7058e9d3ff5958e9bccabc882b1e5b6f') in 0.013539 seconds 
+  Import took 0.015866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004895 seconds.
+  path: Assets/ACC_Lite/Scripts/Utils/Exts/ActionExtentions.cs
+  artifactKey: Guid(ee510375f85221f419fcdee4f2ef26a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Utils/Exts/ActionExtentions.cs using Guid(ee510375f85221f419fcdee4f2ef26a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b1681bc8b3f3577338ffb4ab6dfd11') in 0.003898 seconds 
+  Import took 0.005858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004204 seconds.
+  path: Assets/PROMETEO - Car Controller/Materials/PCC_Col_Mat.mat
+  artifactKey: Guid(2d997c6d92b71154e8dee74617594aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Materials/PCC_Col_Mat.mat using Guid(2d997c6d92b71154e8dee74617594aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dcc8824e70a4daaefab0498059173f') in 0.010077 seconds 
+  Import took 0.012077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004653 seconds.
+  path: Assets/ACC_Lite/Scripts/UI/MobileControlUI.cs
+  artifactKey: Guid(9330491a2a246c44db12c1ef2a0516ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/UI/MobileControlUI.cs using Guid(9330491a2a246c44db12c1ef2a0516ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66233b68d7b3b14738af51be9e6e736e') in 0.003735 seconds 
+  Import took 0.005671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004523 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/GamePlay/PG_WheelCollider.cs
+  artifactKey: Guid(896c6318b1844c64089256fa545d60d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/GamePlay/PG_WheelCollider.cs using Guid(896c6318b1844c64089256fa545d60d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12bdd075bd638feaa173eb4ca429c3e') in 0.004345 seconds 
+  Import took 0.006626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004256 seconds.
+  path: Assets/ACC_Lite/Scripts/UI/CustomButton.cs
+  artifactKey: Guid(9b9becf69f2ef82419a53c278e34485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/UI/CustomButton.cs using Guid(9b9becf69f2ef82419a53c278e34485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f894229a3bab34cf16dbbc8705df9cad') in 0.003607 seconds 
+  Import took 0.005558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004318 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/GamePlay/UserControl.cs
+  artifactKey: Guid(aeb67c03a9a7bb745b02d885278296b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/GamePlay/UserControl.cs using Guid(aeb67c03a9a7bb745b02d885278296b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310725b3ac1bea17e7751a5f892bf8ba') in 0.003930 seconds 
+  Import took 0.005977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004244 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/VisualAndSounds/FXController.cs
+  artifactKey: Guid(d3b356ff59f59394292ccca3928ad25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/VisualAndSounds/FXController.cs using Guid(d3b356ff59f59394292ccca3928ad25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61034f9a9f41620bbf33d267bfd13ebf') in 0.004234 seconds 
+  Import took 0.006364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005380 seconds.
+  path: Assets/ACC_Lite/Scripts/UI/ShowHideMobileUI.cs
+  artifactKey: Guid(6187a86fb69c0ba42b833fb79d27d370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/UI/ShowHideMobileUI.cs using Guid(6187a86fb69c0ba42b833fb79d27d370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81aa77bb81b427a56c96f0b757ecf938') in 0.005480 seconds 
+  Import took 0.007882 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
