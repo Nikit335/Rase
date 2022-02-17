@@ -62,6 +62,7 @@
     <Compile Include="Assets\RCK 2.3\Scripts\CarSwitch.cs" />
     <Compile Include="Assets\skript\s0.cs" />
     <Compile Include="Assets\skript\s8.cs" />
+    <Compile Include="Assets\RCK 2.3\Scripts\PrometeoCarController.cs" />
     <Compile Include="Assets\skript\s5.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\skript\s2.cs" />
@@ -70,7 +71,6 @@
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
     <Compile Include="Assets\skript\s4.cs" />
     <Compile Include="Assets\skript\s9.cs" />
-    <Compile Include="Assets\RCK 2.3\Scripts\PrometeoCarController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
