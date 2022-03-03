@@ -35,11 +35,7 @@ public class PrometeoCarController : MonoBehaviour
       public float steeringSpeed = 1f; // How fast the steering wheel turns.
       [Space(10)]
       [Range(100, 600)]
-<<<<<<< HEAD:My project/Assets/RCK 2.3/Scripts/PrometeoCarController.cs
       public int brakeForce =10000; // The strength of the wheel brakes.
-=======
-      public int brakeForce = 350; // The strength of the wheel brakes.
->>>>>>> adb09219254696e1a4cd5300bc1795af1bc4f573:My project/Assets/PROMETEO - Car Controller/Scripts/PrometeoCarController.cs
       [Range(1, 10)]
       public int decelerationMultiplier = 100; // How fast the car decelerates when the user is not using the throttle.
       [Range(1, 10)]

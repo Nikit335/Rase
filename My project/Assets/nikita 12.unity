@@ -40482,6 +40482,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 186536, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 186536, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
@@ -40539,7 +40543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
+      propertyPath: carSetting.idleRPM
+      value: 375
       objectReference: {fileID: 0}
     - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
       propertyPath: carSetting.carPower
@@ -40550,12 +40558,24 @@ PrefabInstance:
       value: 1e+14
       objectReference: {fileID: 0}
     - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
+      propertyPath: carSetting.shiftUpRPM
+      value: 1047
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
+      propertyPath: carSetting.shiftDownRPM
+      value: 1999.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
       propertyPath: carSetting.automaticGear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
       propertyPath: carSetting.maxSteerAngle
       value: 25.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489280, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
+      propertyPath: carWheels.setting.Radius
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11462334, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
@@ -74557,26 +74577,26 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 186536, guid: b82529e8ddfc06e4fb493d04ff82ec97, type: 3}
   m_PrefabInstance: {fileID: 1066897124}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1982844712
+--- !u!114 &1982844711
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982844708}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bffc576f842f179449d9a68c53ca94fc, type: 3}
+  m_Script: {fileID: 11500000, guid: c0fefceefe666bb4682b272ec8c5bdd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 155
+  maxSpeed: 161
   maxReverseSpeed: 45
-  accelerationMultiplier: 2
-  maxSteeringAngle: 32
-  steeringSpeed: 0.631
-  brakeForce: 600
-  decelerationMultiplier: 2
-  handbrakeDriftMultiplier: 5
+  accelerationMultiplier: 3
+  maxSteeringAngle: 27
+  steeringSpeed: 1
+  brakeForce: 10000
+  decelerationMultiplier: 100
+  handbrakeDriftMultiplier: 10
   bodyMassCenter: {x: 0, y: 0, z: 0}
   frontLeftMesh: {fileID: 0}
   frontLeftCollider: {fileID: 0}
@@ -74596,6 +74616,18 @@ MonoBehaviour:
   carSpeedText: {fileID: 0}
   carEngineSound: {fileID: 0}
   tireScreechSound: {fileID: 0}
+--- !u!114 &1982844712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982844708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffc576f842f179449d9a68c53ca94fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1983876898
 GameObject:
   m_ObjectHideFlags: 0

@@ -101,15 +101,15 @@ public class VehicleControl : MonoBehaviour
         public float springs = 25000.0f;
         public float dampers = 1500.0f;
 
-        public float carPower = 120f;
+        public float carPower = 150f;
         public float shiftPower = 150f;
-        public float brakePower = 8000f;
+        public float brakePower = 999999999999999f;
 
         public Vector3 shiftCentre = new Vector3(0.0f, -0.8f, 0.0f);
 
         public float maxSteerAngle = 25.0f;
 
-        public float shiftDownRPM = 1500.0f;
+        public float shiftDownRPM = 3000.0f;
         public float shiftUpRPM = 2500.0f;
         public float idleRPM = 500.0f;
 

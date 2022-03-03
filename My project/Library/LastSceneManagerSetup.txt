@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/nikita 12.unity
+- path: Assets/road 96.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
