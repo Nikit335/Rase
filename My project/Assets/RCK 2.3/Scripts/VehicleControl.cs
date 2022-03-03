@@ -151,7 +151,7 @@ public class VehicleControl : MonoBehaviour
     [HideInInspector]
     public float curTorque = 100f;
     [HideInInspector]
-    public float powerShift = 100;
+    public float powerShift = 150;
     [HideInInspector]
     public bool shift;
 

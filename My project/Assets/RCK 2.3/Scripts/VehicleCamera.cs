@@ -13,7 +13,7 @@ public class VehicleCamera : MonoBehaviour
     public float smooth = 0.3f;
     public float distance = 5.0f;
     public float height = 1.0f;
-    public float Angle = 20;
+    public float Angle = 25;
 
 
     public List<Transform> cameraSwitchView;

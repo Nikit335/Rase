@@ -93,6 +93,7 @@
     <None Include="Assets\RCK 2.3\Shaders\ReflectionBlurFresnel.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.Design.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.Web.xml" />
+    <None Include="Assets\KajamansRoads\FileNamesDescription.txt" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Core.Editor.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Entity.Design.xml" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.Core.Editor.dll" />
@@ -113,6 +114,7 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Management.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Configuration.xml" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.Flow.Editor.xml" />
+    <None Include="Assets\KajamansRoads\Free\ReadMe.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Messaging.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.xml" />
     <None Include="Assets\Ludiq\Assemblies\Ionic.Zip.xml" />
